@@ -19,7 +19,7 @@ class App extends Component{
 		super(props);
 		this.state={para:""}
 	}
-	clickHandler=()=>{
+	clickHandler(){
 		this.setState({para:"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"})
 	}
 	render(){
