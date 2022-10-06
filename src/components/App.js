@@ -15,8 +15,8 @@ import '../styles/App.css';
 // }
 
 class App extends Component{
-	constructor(){
-		super(props)
+	constructor(props){
+		super(props);
 		this.state={para:""}
 	}
 	clickHandler=()=>{
