@@ -25,7 +25,7 @@ class App extends Component{
 	render(){
 		return(
     		<div id="main">
-			{!this.state.hide && <button type="button" id="click" onClick={this.clickHandler.bind(this)}>Click</button>}
+			<button type="button" id="click" onClick={this.clickHandler.bind(this)}>Click</button>
 			{this.state.hide && <p id="para">{this.state.para}</p>}
     		</div>
     		);
