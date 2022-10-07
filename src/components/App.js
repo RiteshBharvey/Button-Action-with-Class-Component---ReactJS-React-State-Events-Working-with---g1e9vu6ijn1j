@@ -4,10 +4,10 @@ import '../styles/App.css';
 class App extends Component{
 	constructor(){
 		super();
-		this.state={para:"",hide:"false"}
+		this.state={para:"",hide:false}
 	}
 	clickHandler(){
-		this.setState({para:"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy",hide:"true"})
+		this.setState({para:"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy",hide:true})
 	}
 	render(){
 		return(
